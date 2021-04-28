@@ -41,7 +41,7 @@ https://leetcode-cn.com/problems/two-sum
 
 ## 代码
 
-- 语言：TypeScript
+- 语言: TypeScript
 
 ```typescript
 const twoSum = (nums: number[], target: number): number[] => {
