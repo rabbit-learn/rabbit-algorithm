@@ -1,6 +1,6 @@
 ## 源码路径
 
-https://github.com/HuanBaby1314/rabbit-algorithm/algorithm/longestSubstring/index.ts
+https://github1s.com/HuanBaby1314/rabbit-algorithm/algorithm/longestSubstring/index.ts
 
 ## 题目地址(无重复字符的最长子串)
 
@@ -49,14 +49,15 @@ s 由英文字母、数字、符号和空格组成
 export const lengthOfLongestSubstring = (s: string): number => {
     let size: number = 0;
     if(s) {
-        const charList: string[] = []
+        let charList: string[] = []
         for (let i = 0; i < s.length; i++) {
-            for (let j = 0; j < s.length; j++) {
+            for (let j = i; j < s.length; j++) {
                 const c: string = s.charAt(j)
-                if(charList.indexOf(c)) break;
+                if(charList.indexOf(c) > -1) break;
                 charList.push(c)
             }
             if(charList.length > size) size = charList.length;
+            charList = []
         }
     }
     return size;

@@ -1,6 +1,6 @@
 ## 源码路径
 
-https://github.com/HuanBaby1314/rabbit-algorithm/algorithm/twoSum/index.ts
+https://github1s.com/HuanBaby1314/rabbit-algorithm/algorithm/twoSum/index.ts
 
 ## 题目地址(两数之和)
 

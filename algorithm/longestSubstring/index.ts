@@ -6,14 +6,15 @@
 export const lengthOfLongestSubstring = (s: string): number => {
     let size: number = 0;
     if(s) {
-        const charList: string[] = []
+        let charList: string[] = []
         for (let i = 0; i < s.length; i++) {
-            for (let j = 0; j < s.length; j++) {
+            for (let j = i; j < s.length; j++) {
                 const c: string = s.charAt(j)
-                if(charList.indexOf(c)) break;
+                if(charList.indexOf(c) > -1) break;
                 charList.push(c)
             }
             if(charList.length > size) size = charList.length;
+            charList = []
         }
     }
     return size;
