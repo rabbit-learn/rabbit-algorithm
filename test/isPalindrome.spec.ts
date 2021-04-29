@@ -1,6 +1,6 @@
 import { isPalindrome } from '../algorithm/isPalindrome'
 
-describe('整数反转(回文数)', () => {
+describe('回文数', () => {
     test('isPalindrome', () => {
         expect(isPalindrome(121)).toEqual(true)
         expect(isPalindrome(-121)).toEqual(false)
