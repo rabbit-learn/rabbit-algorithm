@@ -3,6 +3,7 @@
 author: Jack Huan
 
 # Clone & Install
+
 ```shell
 # clone
 git clone https://github.com/HuanBaby1314/rabbit-algorithm.git
@@ -17,5 +18,6 @@ npm i
 
 **just for happy！**
 
-- [两数之和](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/twoSum)
-- [无重复字符的最长子串](https://github.com/HuanBaby1314/rabbit-algorithm/algorithm/longestSubstring)
+- [] [两数之和](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/twoSum)
+- [] [无重复字符的最长子串](https://github.com/HuanBaby1314/rabbit-algorithm/algorithm/longestSubstring)
+- [] [整数反转(回文数)](https://github.com/HuanBaby1314/rabbit-algorithm/algorithm/isPalindrome)

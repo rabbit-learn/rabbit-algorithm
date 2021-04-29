@@ -1,5 +1,7 @@
 /**
  * @author Jack huan 最帅的坏兔子
+ * @date 2021-04-27
+ * @description 两数之和
  * @param {number[]} nums 整数数组
  * @param {number} target 整数目标值
  * @return {number[]} 函数返回值

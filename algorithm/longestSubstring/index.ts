@@ -1,5 +1,7 @@
 /**
  * @author Jack huan 最帅的坏兔子
+ * @date 2021-04-28
+ * @description 无重复字符的最长子串
  * @param {string} s 源字符串
  * @return {number} 函数返回值
  */
