@@ -23,4 +23,5 @@ npm i
 - [x] [回文数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/isPalindrome)
 - [x] [整数反转](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/intReverse)
 - [x] [数组中重复的数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/repeatNum)
-- [ ] [判定字符是否唯一](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/strIsUnique)
+- [x] [判定字符是否唯一](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/strIsUnique)
+- [ ] [最长公共前缀](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/longestCommonPre)
