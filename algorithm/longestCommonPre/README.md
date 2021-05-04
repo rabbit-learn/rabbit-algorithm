@@ -36,5 +36,32 @@ strs[i] 仅由小写英文字母组成
 - 语言: TypeScript
 
 ```typescript
-
+export const longestCommonPrefix = (strs: string[]): string => {
+  let result: string = "";
+  if (strs.length > 0) {
+    if (strs.length > 1) {
+      const start = strs[0];
+      let resultString = "";
+      let isPre = true;
+      for (let i = 0; i < start.length; i++) {
+        resultString = resultString.concat(start.charAt(i));
+        for (let j = 1; j < strs.length; j++) {
+          if (!strs[j].startsWith(resultString)) {
+            isPre = false;
+            break;
+          }
+        }
+        if (!isPre) {
+          break;
+        }
+      }
+      isPre
+        ? (result = resultString)
+        : (result = resultString.slice(0, resultString.length - 1));
+    } else {
+      result = strs[0];
+    }
+  }
+  return result;
+};
 ```
