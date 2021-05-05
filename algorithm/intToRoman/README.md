@@ -61,65 +61,51 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 - 语言: TypeScript
 
 ```typescript
-export const romanToInt = (s: string): number => {
-  const romanMap = new Map();
-  romanMap.set("I", 1);
-  romanMap.set("V", 5);
-  romanMap.set("X", 10);
-  romanMap.set("L", 50);
-  romanMap.set("C", 100);
-  romanMap.set("D", 500);
-  romanMap.set("M", 1000);
-  let result = 0,
-    size = s.length;
-  for (let i = 0; i < size; i++) {
-    const c = s.charAt(i);
-    if (i + 1 < size) {
-      const nextC = s.charAt(i + 1);
-      let isLeap = false;
-      switch (c) {
-        case "I":
-          if (nextC === "V") {
-            result += 4;
-            isLeap = true;
-          } else if (nextC === "X") {
-            result += 9;
-            isLeap = true;
-          } else {
-            result += romanMap.get(c);
-          }
-          break;
-        case "X":
-          if (nextC === "L") {
-            result += 40;
-            isLeap = true;
-          } else if (nextC === "C") {
-            result += 90;
-            isLeap = true;
-          } else {
-            result += romanMap.get(c);
-          }
-          break;
-        case "C":
-          if (nextC === "D") {
-            result += 400;
-            isLeap = true;
-          } else if (nextC === "M") {
-            result += 900;
-            isLeap = true;
-          } else {
-            result += romanMap.get(c);
-          }
-          break;
-        default:
-          result += romanMap.get(c);
-          break;
-      }
-      if (isLeap) {
-        ++i;
-      }
+export const intToRoman = (num: number): string => {
+  const romanArray: [number, string][] = [
+    [1, "I"],
+    [4, "IV"],
+    [5, "V"],
+    [9, "IX"],
+    [10, "X"],
+    [40, "XL"],
+    [50, "L"],
+    [90, "XC"],
+    [100, "C"],
+    [400, "CD"],
+    [500, "D"],
+    [900, "CM"],
+    [1000, "M"],
+  ];
+  const romanMap = new Map(romanArray);
+  const list: number[] = [];
+  let m: number = 1;
+  while (num > 0) {
+    let rem = num % 10;
+    if (rem === 4 || rem === 9) {
+      list.push(rem * m);
     } else {
-      result += romanMap.get(c);
+      if (rem > 4) {
+        rem = rem % 5;
+        for (let i = 0; i < rem; i++) {
+          list.push(m);
+        }
+        list.push(5 * m);
+      } else {
+        for (let i = 0; i < rem; i++) {
+          list.push(m);
+        }
+      }
+    }
+    m = m * 10;
+    num = Math.floor(num / 10);
+  }
+  let index = list.length - 1,
+    result = "";
+  for (let i = index; i > -1; i--) {
+    const n = list[i];
+    if (romanMap.get(n)) {
+      result += romanMap.get(n).toString();
     }
   }
   return result;

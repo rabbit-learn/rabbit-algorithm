@@ -1,6 +1,6 @@
 import { intToRoman } from '../algorithm/intToRoman'
 
-describe('罗马数字转整数', () => {
+describe('整数转罗马数字', () => {
     test('intToRoman', () => {
         expect(intToRoman(3)).toEqual('III')
         expect(intToRoman(4)).toEqual('IV')

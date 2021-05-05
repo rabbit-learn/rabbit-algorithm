@@ -42,7 +42,7 @@ export const intToRoman = (num: number): string => {
             }
         }
         m = m * 10;
-        num = num / 10;
+        num = Math.floor(num / 10);
     }
     let index = list.length - 1, result = '';
     for (let i = index; i > -1; i--) {
