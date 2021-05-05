@@ -10,12 +10,22 @@ git clone https://github.com/HuanBaby1314/rabbit-algorithm.git
 ```
 
 ```shell
-# install by npm
+# install by npm => npm i === npm install
 npm i
 # or install by yarn
 # yarn install
 ```
 
+# test
+
+```shell
+# test by npm
+npm run test
+# or test by yarn
+# yarn test
+```
+
+**图一乐！**
 **just for happy！**
 
 - [x] [两数之和](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/twoSum)
