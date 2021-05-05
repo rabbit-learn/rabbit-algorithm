@@ -26,4 +26,4 @@ npm i
 - [x] [判定字符是否唯一](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/strIsUnique)
 - [x] [最长公共前缀](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/longestCommonPre)
 - [x] [罗马数字转整数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/romanToInt)
-- [ ] [整数转罗马数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/intToRoman)
+- [x] [整数转罗马数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/intToRoman)
