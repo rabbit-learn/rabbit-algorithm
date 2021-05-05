@@ -27,3 +27,4 @@ npm i
 - [x] [最长公共前缀](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/longestCommonPre)
 - [x] [罗马数字转整数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/romanToInt)
 - [x] [整数转罗马数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/intToRoman)
+- [ ] [判定是否互为字符重排](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/stringRepeatPermutation)
