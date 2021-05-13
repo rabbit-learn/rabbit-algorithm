@@ -40,4 +40,5 @@ npm run test
 - [x] [判定是否互为字符重排](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/stringRepeatPermutation)
 - [x] [字符串压缩](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/stringCompress)
 - [x] [URL化](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/stringToUrl)
-- [ ] [回文排列](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/palindromePermutation)
+- [x] [回文排列](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/palindromePermutation)
+- [ ] [有效的括号](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/validParentheses)
