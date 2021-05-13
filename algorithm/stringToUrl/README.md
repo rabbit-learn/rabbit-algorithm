@@ -31,5 +31,7 @@ URL化。编写一种方法，将字符串中的空格全部替换为%20。假�
 - 语言: TypeScript
 
 ```typescript
-
+export const replaceSpaces = (S: string, length: number): string => {
+    return S.substring(0, length).replace(/\s/g, "%20")
+}
 ```
