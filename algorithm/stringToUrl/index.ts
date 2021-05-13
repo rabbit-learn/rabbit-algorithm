@@ -7,5 +7,5 @@
  * @return {string} 函数返回值
  */
 export const replaceSpaces = (S: string, length: number): string => {
-    return S.substring(0, length).replace(/' '/g, "%20")
+    return S.substring(0, length).replace(/\s/g, "%20")
 }
