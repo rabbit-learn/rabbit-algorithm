@@ -39,4 +39,5 @@ npm run test
 - [x] [整数转罗马数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/intToRoman)
 - [x] [判定是否互为字符重排](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/stringRepeatPermutation)
 - [x] [字符串压缩](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/stringCompress)
-- [ ] [URL化](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/stringToUrl)
+- [x] [URL化](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/stringToUrl)
+- [ ] [回文排列](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/palindromePermutation)
