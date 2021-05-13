@@ -41,4 +41,5 @@ npm run test
 - [x] [字符串压缩](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/stringCompress)
 - [x] [URL化](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/stringToUrl)
 - [x] [回文排列](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/palindromePermutation)
-- [ ] [有效的括号](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/validParentheses)
+- [x] [有效的括号](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/validParentheses)
+- [ ] [寻找数组的中心索引](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/findPivotIndex)
