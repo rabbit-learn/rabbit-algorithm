@@ -52,5 +52,35 @@ s 仅由括号 '()[]{}' 组成
 - 语言: TypeScript
 
 ```typescript
-
+export const isValid = (s: string): boolean => {
+    const stack = [];
+    for (let i = 0; i < s.length; i++) {
+        const c = s.charAt(i);
+        if('({['.indexOf(c) > -1) stack.push(c);
+        if(')}]'.indexOf(c) > -1) {
+            if(stack.length < 1) return false;
+            const top = stack.pop()
+            switch (top) {
+                case '(':
+                    if(c !== ')') {
+                        return false;
+                    }
+                    break;
+                case '{':
+                    if(c !== '}') {
+                        return false;
+                    }
+                    break;
+                case '[':
+                    if(c !== ']') {
+                        return false;
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+    return stack.length === 0;
+}
 ```
