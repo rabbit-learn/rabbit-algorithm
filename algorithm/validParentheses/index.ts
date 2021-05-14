@@ -12,26 +12,20 @@ export const isValid = (s: string): boolean => {
         if('({['.indexOf(c) > -1) stack.push(c);
         if(')}]'.indexOf(c) > -1) {
             if(stack.length < 1) return false;
-            const top = stack.shift()
+            const top = stack.pop()
             switch (top) {
                 case '(':
-                    if(c === ')') {
-                        stack.pop()
-                    }else{
+                    if(c !== ')') {
                         return false;
                     }
                     break;
                 case '{':
-                    if(c === '}') {
-                        stack.pop()
-                    }else{
+                    if(c !== '}') {
                         return false;
                     }
                     break;
                 case '[':
-                    if(c === ']') {
-                        stack.pop()
-                    }else{
+                    if(c !== ']') {
                         return false;
                     }
                     break;
