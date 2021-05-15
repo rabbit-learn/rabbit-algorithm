@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/HuanBaby1314/rabbit-algorithm.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["algorithm"],
+  "author": "jack huan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HuanBaby1314/rabbit-algorithm/issues"
