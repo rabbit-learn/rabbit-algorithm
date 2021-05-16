@@ -7,10 +7,10 @@
  * @return {boolean} 函数返回值
  */
 export const canPlaceFlowers = (flowerbed: number[], n: number): boolean => {
-    let num = 0;
-    const size = flowerbed.length;
-    for (let i = 0; i < size; i++) {
-        const flower = flowerbed[i];
+    let num: number = 0;
+    const size: number = flowerbed.length;
+    for (let i: number = 0; i < size; i++) {
+        const flower: number = flowerbed[i];
         if(flower === 0) {
             if(i === 0) {
                 if(size > 1 && flowerbed[i + 1] === 0){
