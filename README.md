@@ -44,4 +44,5 @@ npm run test
 - [x] [有效的括号](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/validParentheses)
 - [x] [寻找数组的中心索引](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/findPivotIndex)
 - [x] [种花问题](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/canPlaceFlowers)
-- [ ] [实现 strStr()](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/implementStrstr)
+- [x] [实现 strStr()](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/implementStrstr)
+- [ ] [搜索插入位置](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/searchInsertPosition)
