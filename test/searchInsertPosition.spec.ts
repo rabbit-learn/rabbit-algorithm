@@ -1,6 +1,6 @@
 import { searchInsert } from '../algorithm/searchInsertPosition'
 
-describe('有效的括号', () => {
+describe('搜索插入位置', () => {
     test('searchInsert', () => {
         expect(searchInsert([1,3,5,6], 5)).toEqual(2)
         expect(searchInsert([1,3,5,6], 2)).toEqual(1)
