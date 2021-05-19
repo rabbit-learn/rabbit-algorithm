@@ -47,4 +47,5 @@ npm run test
 - [x] [实现 strStr()](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/implementStrstr)
 - [x] [搜索插入位置](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/searchInsertPosition)
 - [x] [波那契数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/fibonacciNumber)
-- [ ] [x的平方根](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/sqrtx)
+- [x] [x的平方根](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/sqrtx)
+- [ ] [爬楼梯](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/climbingStairs)
