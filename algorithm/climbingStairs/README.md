@@ -38,5 +38,14 @@ https://leetcode-cn.com/problems/climbing-stairs
 - 语言: TypeScript
 
 ```typescript
-
+export const climbStairs = (n: number ): number => {
+    let currentTotal = 1, lastTotal = 1, m = 1;
+    while (m < n) {
+        const temp =currentTotal;
+        currentTotal += lastTotal;
+        lastTotal = temp;
+        ++m;
+    }
+    return currentTotal;
+}
 ```
