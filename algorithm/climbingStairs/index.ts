@@ -8,7 +8,8 @@
 export const climbStairs = (n: number ): number => {
     let currentTotal = 1, lastTotal = 1, m = 1;
     while (m < n) {
-        const temp = currentTotal;
+        let temp = 0;
+        temp += currentTotal;
         lastTotal = temp;
         ++m;
     }
