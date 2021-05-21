@@ -48,4 +48,5 @@ npm run test
 - [x] [搜索插入位置](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/searchInsertPosition)
 - [x] [波那契数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/fibonacciNumber)
 - [x] [x的平方根](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/sqrtx)
-- [ ] [爬楼梯](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/climbingStairs)
+- [x] [爬楼梯](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/climbingStairs)
+- [ ] [最后一个单词的长度](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/lengthOfLastWord)
