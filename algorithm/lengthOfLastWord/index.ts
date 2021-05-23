@@ -1,16 +1,18 @@
 /**
  * @author Jack huan 最帅的坏兔子
- * @date 2021-05-19
- * @description x的平方根
- * @param {number} x 目标值
+ * @date 2021-05-20
+ * @description 最后一个单词的长度
+ * @param {string} s 目标值
  * @return {number} 函数返回值
  */
-export const mySqrt = (x: number ): number => {
-    let i = 0;
-    while(i <= x / 2) {
-        if( i ** 2 === x || i ** 2 < x && (i + 1) ** 2 > x) return i;
-        if((i + 1) ** 2 === x) return i + 1;
-        ++i;
+export const lengthOfLastWord = (s: string ): number => {
+    let lastWordLength = 0;
+    for (let i = s.length - 1; i > -1 ; i--) {
+        if(s.charAt(i) === ' '){
+            if(lastWordLength > 0) break;
+        }else{
+            ++lastWordLength;
+        }
     }
-    return i;
+    return lastWordLength;
 }

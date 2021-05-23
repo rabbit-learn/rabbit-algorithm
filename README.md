@@ -49,5 +49,5 @@ npm run test
 - [x] [波那契数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/fibonacciNumber)
 - [x] [x 的平方根](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/sqrtx)
 - [x] [爬楼梯](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/climbingStairs)
-- [ ] [最后一个单词的长度](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/lengthOfLastWord)
+- [x] [最后一个单词的长度](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/lengthOfLastWord)
 - [ ] [只出现一次的数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/singleNumber)

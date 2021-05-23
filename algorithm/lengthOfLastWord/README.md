@@ -1,36 +1,32 @@
 ## 源码路径
 
-https://github.com/HuanBaby1314/rabbit-algorithm/blob/main/algorithm/climbingStairs/index.ts
+https://github.com/HuanBaby1314/rabbit-algorithm/blob/main/algorithm/lengthOfLastWord/index.ts
 
-## 题目地址(爬楼梯)
+## 题目地址(最后一个单词的长度)
 
-https://leetcode-cn.com/problems/climbing-stairs
+https://leetcode-cn.com/problems/length-of-last-word
 
 ## 题目描述
 
 ```
-假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
+给你一个字符串 s，由若干单词组成，单词之间用空格隔开。返回字符串中最后一个单词的长度。如果不存在最后一个单词，请返回 0 。
 
-每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
-
-注意：给定 n 是一个正整数。
+单词 是指仅由字母组成、不包含任何空格字符的最大子字符串。
 
 示例1:
 
-输入： 2
-输出： 2
-解释： 有两种方法可以爬到楼顶。
-1.  1 阶 + 1 阶
-2.  2 阶
+输入：s = "Hello World"
+输出：5
 
 示例2:
 
-输入： 3
-输出： 3
-解释： 有三种方法可以爬到楼顶。
-1.  1 阶 + 1 阶 + 1 阶
-2.  1 阶 + 2 阶
-3.  2 阶 + 1 阶
+输入：s = " "
+输出：0
+
+提示:
+
+1 <= s.length <= 10^4
+s 仅有英文字母和空格 ' ' 组成
 ```
 
 ## 代码
@@ -38,5 +34,15 @@ https://leetcode-cn.com/problems/climbing-stairs
 - 语言: TypeScript
 
 ```typescript
-
+export const lengthOfLastWord = (s: string): number => {
+  let lastWordLength = 0;
+  for (let i = s.length - 1; i > -1; i--) {
+    if (s.charAt(i) === " ") {
+      if (lastWordLength > 0) break;
+    } else {
+      ++lastWordLength;
+    }
+  }
+  return lastWordLength;
+};
 ```

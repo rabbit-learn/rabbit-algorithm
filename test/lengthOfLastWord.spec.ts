@@ -1,8 +1,8 @@
-import { compressString } from '../algorithm/compressString'
+import { lengthOfLastWord } from '../algorithm/lengthOfLastWord'
 
-describe('字符串压缩', () => {
-    test('compressString', () => {
-        expect(compressString("aabcccccaaa")).toEqual("a2b1c5a3")
-        expect(compressString("abbccd")).toEqual("abbccd")
+describe('最后一个单词的长度', () => {
+    test('lengthOfLastWord', () => {
+        expect(lengthOfLastWord("Hello World")).toEqual(5)
+        expect(lengthOfLastWord(" ")).toEqual(0)
     })
 })
