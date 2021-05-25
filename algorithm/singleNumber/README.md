@@ -1,32 +1,29 @@
 ## 源码路径
 
-https://github.com/HuanBaby1314/rabbit-algorithm/blob/main/algorithm/lengthOfLastWord/index.ts
+https://github.com/HuanBaby1314/rabbit-algorithm/blob/main/algorithm/singleNumber/index.ts
 
-## 题目地址(最后一个单词的长度)
+## 题目地址(只出现一次的数字)
 
-https://leetcode-cn.com/problems/length-of-last-word
+https://leetcode-cn.com/problems/single-number
 
 ## 题目描述
 
 ```
-给你一个字符串 s，由若干单词组成，单词之间用空格隔开。返回字符串中最后一个单词的长度。如果不存在最后一个单词，请返回 0 。
+给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
 
-单词 是指仅由字母组成、不包含任何空格字符的最大子字符串。
+说明：
+
+你的算法应该具有线性时间复杂度。 你可以不使用额外空间来实现吗？
 
 示例1:
 
-输入：s = "Hello World"
-输出：5
+输入: [2,2,1]
+输出: 1
 
 示例2:
 
-输入：s = " "
-输出：0
-
-提示:
-
-1 <= s.length <= 10^4
-s 仅有英文字母和空格 ' ' 组成
+输入: [4,1,2,1,2]
+输出: 4
 ```
 
 ## 代码
@@ -34,15 +31,5 @@ s 仅有英文字母和空格 ' ' 组成
 - 语言: TypeScript
 
 ```typescript
-export const lengthOfLastWord = (s: string): number => {
-  let lastWordLength = 0;
-  for (let i = s.length - 1; i > -1; i--) {
-    if (s.charAt(i) === " ") {
-      if (lastWordLength > 0) break;
-    } else {
-      ++lastWordLength;
-    }
-  }
-  return lastWordLength;
-};
+
 ```
