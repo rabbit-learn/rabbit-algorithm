@@ -51,5 +51,5 @@ npm run test
 - [x] [爬楼梯](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/climbingStairs)
 - [x] [最后一个单词的长度](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/lengthOfLastWord)
 - [x] [只出现一次的数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/singleNumber)
-- [ ] [计数质数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/countPrimes)
+- [x] [计数质数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/countPrimes)
 - [ ] [丑数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/uglyNumber)
