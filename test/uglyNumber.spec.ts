@@ -1,11 +1,9 @@
-import { countPrimes } from '../algorithm/countPrimes'
+import { isUgly } from "../algorithm/uglyNumber";
 
-describe('计数质数', () => {
-    test('countPrimes', () => {
-        expect(countPrimes(10)).toEqual(4)
-        expect(countPrimes(0)).toEqual(0)
-        expect(countPrimes(1)).toEqual(0)
-        expect(countPrimes(2)).toEqual(0)
-        expect(countPrimes(3)).toEqual(1)
-    })
-})
+describe("计数质数", () => {
+  test("isUgly", () => {
+    expect(isUgly(6)).toEqual(true);
+    expect(isUgly(8)).toEqual(true);
+    expect(isUgly(14)).toEqual(false);
+  });
+});

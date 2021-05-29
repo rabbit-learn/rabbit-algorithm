@@ -52,4 +52,5 @@ npm run test
 - [x] [最后一个单词的长度](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/lengthOfLastWord)
 - [x] [只出现一次的数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/singleNumber)
 - [x] [计数质数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/countPrimes)
-- [ ] [丑数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/uglyNumber)
+- [x] [丑数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/uglyNumber)
+- [ ] [存在重复元素](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/containsDuplicate)
