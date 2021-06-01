@@ -53,4 +53,5 @@ npm run test
 - [x] [只出现一次的数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/singleNumber)
 - [x] [计数质数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/countPrimes)
 - [x] [丑数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/uglyNumber)
-- [ ] [存在重复元素](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/containsDuplicate)
+- [x] [存在重复元素](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/containsDuplicate)
+- [ ] [按奇偶排序数组](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/sortArrayByParity)
