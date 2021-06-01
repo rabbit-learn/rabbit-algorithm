@@ -1,40 +1,32 @@
 ## 源码路径
 
-https://github.com/HuanBaby1314/rabbit-algorithm/blob/main/algorithm/uglyNumber/index.ts
+https://github.com/HuanBaby1314/rabbit-algorithm/blob/main/algorithm/containsDuplicate/index.ts
 
-## 题目地址(丑数)
+## 题目地址(存在重复元素)
 
-https://leetcode-cn.com/problems/ugly-number
+https://leetcode-cn.com/problems/contains-duplicate
 
 ## 题目描述
 
 ```
-编写一个程序判断给定的数是否为丑数。
+给定一个整数数组，判断是否存在重复元素。
 
-丑数就是只包含质因数 2, 3, 5 的正整数。
+如果存在一值在数组中出现至少两次，函数返回 true 。如果数组中每个元素都不相同，则返回 false 。
 
 示例1:
 
-输入: 6
+输入: [1,2,3,1]
 输出: true
-解释: 6 = 2 × 3
 
 示例2:
 
-输入: 8
-输出: true
-解释: 8 = 2 × 2 × 2
+输入: [1,2,3,4]
+输出: false
 
 示例3:
 
-输入: 14
-输出: false 
-解释: 14 不是丑数，因为它包含了另外一个质因数 7
-
-提示：
-
-1.1 是丑数。
-2.输入不会超过 32 位有符号整数的范围: [−2^31,  2^31 − 1]。
+输入: [1,1,1,3,3,4,3,2,4,2]
+输出: true
 ```
 
 ## 代码
