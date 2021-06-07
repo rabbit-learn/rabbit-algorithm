@@ -1,32 +1,28 @@
 ## 源码路径
 
-https://github.com/HuanBaby1314/rabbit-algorithm/blob/main/algorithm/containsDuplicate/index.ts
+https://github.com/HuanBaby1314/rabbit-algorithm/blob/main/algorithm/sortArrayByParity/index.ts
 
-## 题目地址(存在重复元素)
+## 题目地址(按奇偶排序数组)
 
-https://leetcode-cn.com/problems/contains-duplicate
+https://leetcode-cn.com/problems/sort-array-by-parity
 
 ## 题目描述
 
 ```
-给定一个整数数组，判断是否存在重复元素。
+给定一个非负整数数组 A，返回一个数组，在该数组中， A 的所有偶数元素之后跟着所有奇数元素。
 
-如果存在一值在数组中出现至少两次，函数返回 true 。如果数组中每个元素都不相同，则返回 false 。
+你可以返回满足此条件的任何数组作为答案。
 
 示例1:
 
-输入: [1,2,3,1]
-输出: true
+输入：[3,1,2,4]
+输出：[2,4,3,1]
+输出 [4,2,3,1]，[2,4,1,3] 和 [4,2,1,3] 也会被接受。
 
-示例2:
+提示:
 
-输入: [1,2,3,4]
-输出: false
-
-示例3:
-
-输入: [1,1,1,3,3,4,3,2,4,2]
-输出: true
+1 <= A.length <= 5000
+0 <= A[i] <= 5000
 ```
 
 ## 代码
