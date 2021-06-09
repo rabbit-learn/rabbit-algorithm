@@ -8,7 +8,7 @@
 export const sortArrayByParity = (A: number[]): number[] => {
   const B: number[] = []
   let eventIndex: number = 0;
-  let oddIndex: number = 0;
+  let oddIndex: number = A.length - 1;
   for(let value of A) {
     if(value % 2 === 0){
       B[eventIndex] = value;
