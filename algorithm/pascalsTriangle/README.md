@@ -1,32 +1,31 @@
 ## 源码路径
 
-https://github.com/HuanBaby1314/rabbit-algorithm/blob/main/algorithm/containsDuplicate/index.ts
+https://github.com/HuanBaby1314/rabbit-algorithm/blob/main/algorithm/pascalsTriangle/index.ts
 
-## 题目地址(存在重复元素)
+## 题目地址(杨辉三角)
 
-https://leetcode-cn.com/problems/contains-duplicate
+https://leetcode-cn.com/problems/pascals-triangle
 
 ## 题目描述
 
-```
-给定一个整数数组，判断是否存在重复元素。
+![杨辉三角](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
-如果存在一值在数组中出现至少两次，函数返回 true 。如果数组中每个元素都不相同，则返回 false 。
+```
+给定一个非负整数 numRows，生成杨辉三角的前 numRows 行。
+
+在杨辉三角中，每个数是它左上方和右上方的数的和。
 
 示例1:
 
-输入: [1,2,3,1]
-输出: true
-
-示例2:
-
-输入: [1,2,3,4]
-输出: false
-
-示例3:
-
-输入: [1,1,1,3,3,4,3,2,4,2]
-输出: true
+输入: 5
+输出:
+[
+     [1],
+    [1,1],
+   [1,2,1],
+  [1,3,3,1],
+ [1,4,6,4,1]
+]
 ```
 
 ## 代码
