@@ -13,7 +13,13 @@ export const pascalsTriangle = (numRows: number): number[][] => {
     list.push(1)
     if(i > 0) {
       const temp = arr[i - 1]
-      // TODO
+      for (let j = 1; j < temp.length; j++) {
+        list.push(temp[j - 1] + temp[j])
+      }
+      list.push(1)
+      arr.push(list)
+    }else{
+      arr.push(list)
     }
   }
   return arr
