@@ -55,6 +55,6 @@ npm run test
 - [x] [丑数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/uglyNumber)
 - [x] [存在重复元素](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/containsDuplicate)
 - [x] [按奇偶排序数组](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/sortArrayByParity)
-- [ ] [杨辉三角](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/pascalsTriangle)
+- [x] [杨辉三角](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/pascalsTriangle)
 - [ ] [杨辉三角 II](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/pascalsTriangle2)
 - [ ] [找到所有数组中消失的数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/findDisappearedNumbers)
