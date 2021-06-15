@@ -1,26 +1,19 @@
 /**
  * @author Jack huan 最帅的坏兔子
- * @date 2021-05-25
- * @description 杨辉三角
- * @param {number} numRows 目标值
+ * @date 2021-05-28
+ * @description 杨辉三角 II
+ * @param {number} rowIndex 目标值
  * @return {boolean} 函数返回值
  */
 
-export const pascalsTriangle2 = (numRows: number): number[][] => {
-  const arr = [];
-  for (let i = 0; i < numRows; i++) {
-    const list = [];
-    list.push(1);
-    if (i > 0) {
-      const temp = arr[i - 1];
-      for (let j = 1; j < temp.length; j++) {
-        list.push(temp[j - 1] + temp[j]);
-      }
-      list.push(1);
-      arr.push(list);
-    } else {
-      arr.push(list);
+export const pascalsTriangle2 = (rowIndex: number): number[] => {
+  const res = new Array(rowIndex + 1);
+  res[0] = 1;
+  for (let i = 1; i < rowIndex + 1; i++) {
+    res[0] = res[i] = 1;
+    for (let j = i - 1; j > 0; j--) {
+      res[j] += res[j - 1];
     }
   }
-  return arr;
+  return res;
 };

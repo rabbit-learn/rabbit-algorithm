@@ -1,6 +1,6 @@
 /**
  * @author Jack huan 最帅的坏兔子
- * @date 2021-05-25
+ * @date 2021-05-27
  * @description 杨辉三角
  * @param {number} numRows 目标值
  * @return {boolean} 函数返回值
