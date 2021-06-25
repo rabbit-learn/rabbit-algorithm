@@ -1,7 +1,10 @@
 import { checkInclusion } from "../algorithm/permutationInString";
 
-describe("找到所有数组中消失的数字", () => {
+describe("字符串的排列", () => {
   test("checkInclusion", () => {
-    expect(checkInclusion([4,3,2,7,8,2,3,1])).toEqual([5,6]);
+    expect(checkInclusion("ab", "eidbaooo")).toEqual(true);
+  });
+  test("checkInclusion", () => {
+    expect(checkInclusion("ab", "eidboaoo")).toEqual(false);
   });
 });
