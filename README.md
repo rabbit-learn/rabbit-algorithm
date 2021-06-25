@@ -58,6 +58,6 @@ npm run test
 - [x] [杨辉三角](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/pascalsTriangle)
 - [x] [杨辉三角 II](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/pascalsTriangle2)
 - [x] [找到所有数组中消失的数字](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/findDisappearedNumbers)
-- [ ] [字符串的排列](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/permutationInString)
+- [x] [字符串的排列](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/permutationInString)
 - [ ] [最大连续1的个数](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/maxConsecutiveOnes)
 - [ ] [子数组最大平均数I](https://github.com/HuanBaby1314/rabbit-algorithm/tree/main/algorithm/maximumAverageSubarray)
